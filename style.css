@@ -61,8 +61,8 @@ ul button{
   border:2px solid var(--primety-color);
   &:hover{
     cursor: pointer;
-    /* background-color: var(--primety-color); */
+    background-color: var(--primety-color);
     transition: all 0.8s ease-in-out;
-    transform: scale(1.05);
+    transform: scale(1.1);
   }
 }
