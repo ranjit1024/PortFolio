@@ -93,7 +93,7 @@ gsap.from(".tech-stack ul .tech-image", {
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
-        start:"top top",
+        start:"-20% top",
         end:"+=900",
         scrub:2,
         pin:true,
