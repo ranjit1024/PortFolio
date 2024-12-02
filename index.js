@@ -28,7 +28,7 @@ function breakTextAccordingToSpace(){
     textNode.innerHTML = spanArray
 }
 
-breakEachText()
+
 breakTextAccordingToSpace()
 gsap.from(".nav-button", {
     y:-100,
@@ -51,18 +51,13 @@ timeLine.from("main .greeting", {
     color:"white"
 })
 
-timeLine.from(".title span", {
-    duration:0.77,
-    y:100,
-    opacity:0,
-    stagger:0.1,
-})
+
 
 timeLine.from(".sub-title span", {
     duration:0.77,
     x:1000,
     opacity:0,
-    stagger:0.3,
+    stagger:0.27,
 })
 
 timeLine.to(".overlay", {

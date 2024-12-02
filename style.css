@@ -108,7 +108,7 @@ main .title {
   opacity: 0;
   /* padding: 10px; */
 }
-main .title span {
+main .title  {
   text-overflow: none;
   font-size: 8vw;
   text-align: start;
