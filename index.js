@@ -85,16 +85,16 @@ gsap.from(".icon img", {
     stagger:0.77,
 })
 gsap.from(".tech-stack ul .tech-image", {
-    duration:1,
+    duration:11,
     opacity:0,
-    x:100,
+    x:20,
     stagger:1,
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
-        start:"top center",
-        end:"+=500",
+        start:"top top",
+        end:"+=900",
         scrub:2,
         pin:true,
     }
