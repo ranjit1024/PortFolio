@@ -1,8 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-:root{
-  --primety-color:#7bd1d0
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --primety-color: #7bd1d0;
 }
 * {
   margin: 0;
@@ -26,53 +26,51 @@ nav {
   padding: 10px;
 }
 
-
-nav img{
+nav img {
   width: 50px;
 }
-ul{
+ul {
   display: flex;
   align-items: center;
   gap: 20px;
   list-style: none;
 }
-ul li{
+ul li {
   font-weight: 500;
   font-size: 1.3rem;
-  &:hover{
+  &:hover {
     cursor: pointer;
     color: var(--primety-color);
     transition: all 0.77s ease;
   }
 }
-ul li span{
+ul li span {
   margin-right: 5px;
   font-weight: bold;
   color: var(--primety-color);
 }
 
-ul button{
+ul button {
   /* width: 50px; */
   padding: 10px 30px;
   background-color: transparent;
-  border: 1px double white;
   font-size: 1.3rem;
   font-weight: bold;
   margin-left: 2rem;
-  border:2px solid var(--primety-color);
-  &:hover{
+  border: 2px solid var(--primety-color);
+  &:hover {
     cursor: pointer;
+    border: 2px double white;
     background-color: var(--primety-color);
     transition: all 0.8s ease-in-out;
-    transform: scale(1.1);
   }
 }
 /* // anbove code for navbar */
-main{
+main {
   /* position: relative; */
   font-family: "Inter", sans-serif;
 }
-main .info{
+main .info {
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -80,27 +78,48 @@ main .info{
   width: 100vw;
   overflow: hidden;
   padding-top: 5vw;
-  padding-left:20vw;
+  padding-left: 20vw;
 }
-main .greeting{
+/* main .greeting{
+  
+} */
+main .greeting {
+  padding-left: 8px;
   color: var(--primety-color);
   font-size: 20px;
   font-weight: 600;
-  text-align: start;
-  margin: 0;
-  padding-left: 10px;
+  display: inline-block;
 }
-main .title{
-  margin-top: -0.4rem;
+
+main .title {
+  background-color: transparent;
+}
+.sub-title-container {
+  position: relative;
+}
+.overlay {
+  content: "";
+  width: 0%;
+  height: 32%;
+  background-color:rgba(173, 216, 230, 0.449);
+  position: absolute;
+  bottom: 5;
+  z-index: 1;
+  opacity: 0;
+  /* padding: 10px; */
+}
+main .title span {
   text-overflow: none;
   font-size: 8vw;
   text-align: start;
   font-weight: 650;
   font-family: "Poppins", sans-serif;
   text-align: start;
+  display: inline-block;
+
   
 }
-main .sub-title{
+main .sub-title span {
   text-overflow: none;
   font-size: 5.5vw;
   text-align: start;
@@ -109,33 +128,36 @@ main .sub-title{
   text-align: start;
   text-wrap: nowrap;
   color: rgba(181, 177, 177, 0.668);
-  margin-top: -1rem;
+  color: rgba(181, 177, 177, 0.574);
+
+  /* margin-top: -1rem; */
 }
-main .about{
-  width: 60%;  
-  overflow:hidden;
+main .about {
+  width: 60%;
+  overflow: hidden;
   margin-top: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
 }
-main .about span{
+main .about span {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
-main button{
+main button {
   margin-top: 2rem;
   padding: 1rem 1.2rem;
-  border:4px double var(--primety-color);
+  border: 4px double var(--primety-color);
   background-color: transparent;
   font-size: 1.1rem;
   font-weight: 600;
-  &:hover{
+  &:hover {
     cursor: pointer;
     background-color: var(--primety-color);
+    border: 4px double white;
     transition: all 1s ease-in-out;
   }
 }
-main .social-media{
+main .social-media {
   position: absolute;
   bottom: 0;
   left: 10;
@@ -144,33 +166,33 @@ main .social-media{
   align-items: center;
   flex-direction: column;
 }
-main .social-media .icon{
+main .social-media .icon {
   margin-bottom: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
 }
-main .social-media .icon img{
+main .social-media .icon img {
   width: 1.1rem;
   height: 1.1rem;
   cursor: pointer;
 }
 
-main .email{
+main .email {
   position: absolute;
   bottom: 0;
   right: 1px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 50px;
 }
-main .email p{
+main .email p {
   transform: rotate(90deg);
-  padding:9rem 1rem;
+  padding: 9rem 1rem;
   letter-spacing: 3px;
-  font-weight:500;
+  font-weight: 500;
   font-size: 1rem;
   text-align: center;
 }
