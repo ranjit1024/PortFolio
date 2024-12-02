@@ -1,4 +1,5 @@
 const timeLine = gsap.timeline();
+const timeLine2 = gsap.timeline();
 function breakEachText(){
     const textNode = document.querySelector('.title')
     const text = document.querySelector(".title").textContent;
@@ -57,7 +58,7 @@ timeLine.from(".sub-title span", {
     duration:0.77,
     x:1000,
     opacity:0,
-    stagger:0.27,
+    stagger:0.3,
 })
 
 timeLine.to(".overlay", {
@@ -84,18 +85,21 @@ gsap.from(".icon img", {
     opacity:0,
     stagger:0.77,
 })
-gsap.from(".tech-stack ul .tech-image", {
+timeLine2.from(".tech-stack ul .tech-image", {
     duration:11,
     opacity:0,
     x:20,
+    scale:1.2,
+    rotate:6,
     stagger:1,
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
-        start:"-20% top",
-        end:"+=900",
+        start:"-20% start",
+        // end:"+=500",
         scrub:2,
         pin:true,
     }
+    
 })
