@@ -11,3 +11,7 @@ gsap.from("ul button", {
 gsap.from("img", {
     x:-100,
 })
+gsap.from(".title",{
+    y:100,
+    opacity:0
+})

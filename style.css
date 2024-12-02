@@ -79,7 +79,7 @@ main .info{
   align-items: start;
   width: 100vw;
   overflow: hidden;
-  padding-top: 10vw;
+  padding-top: 5vw;
   padding-left:20vw;
 }
 main .greeting{
@@ -109,10 +109,29 @@ main .sub-title{
   text-align: start;
   text-wrap: nowrap;
   color: rgba(181, 177, 177, 0.668);
+  margin-top: -1rem;
 }
 main .about{
-  width: 50%;  
+  width: 60%;  
   overflow:hidden;
-  margin-top: 4rem;
-
+  margin-top: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+main .about span{
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+main button{
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+  border:4px double var(--primety-color);
+  background-color: transparent;
+  font-size: 1.1rem;
+  font-weight: 600;
+  &:hover{
+    cursor: pointer;
+    background-color: var(--primety-color);
+    transition: all 1s ease-in-out;
+  }
 }
