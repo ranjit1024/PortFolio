@@ -53,7 +53,7 @@ timeLine.from("main .greeting", {
 
 timeLine.from(".title span", {
     duration:0.77,
-    x:1000,
+    y:100,
     opacity:0,
     stagger:0.1,
 })
@@ -84,7 +84,7 @@ timeLine.from("main button", {
 })
 
 gsap.from(".icon img", {
-    x:-10,
+    y:-10,
     duration:0.44,
     opacity:0,
     stagger:0.77,
