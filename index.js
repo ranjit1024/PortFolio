@@ -122,3 +122,8 @@ timeLine2.from(".project1", {
     }
 })
 
+window.addEventListener("mousemove", (e)=>{
+    gsap.to(".mouse", {
+        
+    })
+})
