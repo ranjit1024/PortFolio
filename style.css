@@ -25,6 +25,15 @@ body {
   position: absolute;
 }
 
+.contact{
+  background-color: rebeccapurple;
+  height: 100%;
+  width: 100%;
+  transform: translateX(100vw);
+  position: absolute;
+  top: 0;
+  
+}
 nav {
   display: flex;
   justify-content: space-between;

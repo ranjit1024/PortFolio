@@ -1,5 +1,6 @@
 const timeLine = gsap.timeline();
 const timeLine2 = gsap.timeline();
+const touch = document.querySelector(".get-in-touch button");
 
 function breakEachText(){
     const textNode = document.querySelector('.title')
@@ -122,8 +123,10 @@ timeLine2.from(".project1", {
     }
 })
 
-window.addEventListener("mousemove", (e)=>{
-    gsap.to(".mouse", {
-        
+
+touch.addEventListener("click", () => {
+    console.log('this is buton');
+    gsap.from(".contact", {
+        x:"-100vw"
     })
 })
