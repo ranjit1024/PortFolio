@@ -1,5 +1,6 @@
 const timeLine = gsap.timeline();
 const timeLine2 = gsap.timeline();
+
 function breakEachText(){
     const textNode = document.querySelector('.title')
     const text = document.querySelector(".title").textContent;
@@ -85,21 +86,23 @@ gsap.from(".icon img", {
     opacity:0,
     stagger:0.77,
 })
+
 timeLine2.from(".tech-stack ul .tech-image", {
-    duration:11,
+    duration:15,
     opacity:0,
-    x:20,
+    x:25,
     scale:1.2,
     rotate:6,
-    stagger:1,
+    stagger:3,
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
         start:"-20% start",
-        // end:"+=500",
+        end:"+=1000",
         scrub:2,
         pin:true,
     }
     
 })
+
