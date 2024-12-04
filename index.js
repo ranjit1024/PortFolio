@@ -105,4 +105,20 @@ timeLine2.from(".tech-stack ul .tech-image", {
     }
     
 })
+timeLine2.from(".project1", {
+    duration:15,
+    opacity:0,
+    y:100,
+    scale:2,
+    rotate:10,
+    scrollTrigger:{
+        trigger:".projects",
+        scroller:"body",
+        start:" start",
+        // end:"+=1000",
+        // markers:true,
+        scrub:2,
+        pin:true,
+    }
+})
 
