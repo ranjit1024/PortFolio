@@ -124,9 +124,3 @@ timeLine2.from(".project1", {
 })
 
 
-touch.addEventListener("click", () => {
-    console.log('this is buton');
-    gsap.from(".contact", {
-        x:"-100vw"
-    })
-})
