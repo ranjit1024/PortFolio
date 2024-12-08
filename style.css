@@ -10,6 +10,7 @@
   box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   color: white;
+  /* overflow-x: hidden; */
 }
 
 html,
@@ -81,6 +82,7 @@ main .info {
   overflow: hidden;
   padding-top: 5vw;
   padding-left: 20vw;
+  
 }
 /* main .greeting{
   
@@ -197,7 +199,8 @@ main .email p {
   font-weight: 500;
   font-size: 1rem;
   text-align: center;
-}
+  overflow: hidden;
+} 
 
 .tech-stack {
   /* height: 100%; */
@@ -207,16 +210,16 @@ main .email p {
   align-items: center;
   width: 96%;
   margin: auto;
-
   margin-top: 10rem;
-
   padding-bottom: 3rem;
+  overflow: hidden;
 }
 .tech-stack .title {
   padding-top: 3rem;
   font-size: 4rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
+  overflow: hidden;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 
   background: rgb(13, 87, 200);
@@ -232,14 +235,13 @@ main .email p {
 .tech-stack ul {
   margin-top: 3rem;
   display: flex;
-  /* height: 50vh; */
-  /* flex-shrink: 1; */
-  /* transform: translateX(1000px); */
   width: 100%;
   justify-content: space-evenly;
 }
+tech-stack ul .tech-image{
+  overflow: hidden;
+}
 .tech-stack .text-stack-icon .tech-image {
-  /* width: 500px; */
   border-radius: 50%;
   padding: 10px;
   object-fit: cover;
@@ -248,6 +250,7 @@ main .email p {
 }
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
+  overflow: hidden;
   width: 70px;
 }
 .tech-stack .text-stack-icon .tech-image .js {
@@ -256,6 +259,7 @@ main .email p {
 }
 
 .proj {
+  
   font-size: 4rem;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
@@ -277,6 +281,7 @@ main .email p {
   align-items: center;
   justify-content: center;
   height: 100%;
+  overflow: hidden;
 }
 
 .project1 h1 {
@@ -293,6 +298,7 @@ main .email p {
   background-clip: text
 }
 .project1 {
+  overflow: hidden;
   width: 70%;
   background-color: red;
   background-color: rgba(5, 33, 75, 0.402);
