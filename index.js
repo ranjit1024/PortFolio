@@ -100,8 +100,8 @@ timeLine2.from(".tech-image", {
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
-        start:"-20% start",
-        end:"+=400",
+        start:"-10% start",
+        end:"+=100",
         scrub:2,
         pin:true,
         
@@ -119,7 +119,7 @@ timeLine2.from(".project1", {
     scrollTrigger:{
         trigger:".projects",
         scroller:"body",
-        start:" start",
+        start:"-20% start",
         // end:"+=1000",
         // markers:true,
         scrub:2,
