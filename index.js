@@ -95,15 +95,15 @@ timeLine2.from(".tech-image", {
     x:12,
     scale:1.2,
     rotate:6,
-    stagger:3,
+    stagger:2,
     overflow:"hidden",
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
         // markers:true,
-        start:"-90% start",
+        start:"-50% start",
         end:"+=100",
-        scrub:2,
+        scrub:5,
         pin:true,
         
     }

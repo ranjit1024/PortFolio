@@ -123,7 +123,7 @@ main .sub-title span {
   opacity: 0;
   background: linear-gradient(
     257deg,
-    rgb(134, 235, 223) 50%,
+    rgba(134, 235, 223, 0.7) 50%,
     rgb(0, 12, 248) 140%
   );
   color: transparent;
@@ -208,9 +208,11 @@ main .email p {
   margin-top: 10rem;
   padding-bottom: 3rem;
   overflow: hidden;
+  margin-bottom: 10rem;
 }
 .tech-stack .title {
   padding-top: 3rem;
+  padding-bottom: 3rem;
   font-size: 4rem;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
