@@ -113,3 +113,33 @@ timeLine2.from(".tech-image", {
     
 })
 
+let tl = gsap.timeline({scrollTrigger:{
+    trigger:".projects",
+    start: "38% 50%",
+    end: "100% 50%",
+    scrub:3,
+    pin:true,
+    duration:10
+}})
+
+tl
+.to(".proj-text",{
+    top:"-10%"
+},'a')
+.to("#proj-1", {
+    top:"35%"
+},'a')
+.to("#proj-2", {
+    top:"150%"
+}, 'b')
+.to("#proj-1",{
+    width:"80%",
+    height:'80vh'
+},'b')
+.to('#proj-2', {
+    top:"40%",
+},'c')
+.to('#proj-2', {
+    width:"80%",
+    height:'80vh'
+},'d')

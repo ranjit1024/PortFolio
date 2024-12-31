@@ -156,32 +156,35 @@ main button {
 }
 main .social-media {
   position: absolute;
-  background-color: rgba(255,255,255, 0.5);
-  height: 8.5%;
-  padding-left: 20px;
-  padding-right: 20px;
+  background-color: rgba(255,255,255, 0.3);
+  height: 10%;
+
   width: 10%;
   top: 0;
   left: 100;
   display: flex;
   justify-content: center;
   align-items: center;
+
   flex-direction: row;
   text-align: center;
   border-radius: 0px 0px 20px 10px;
 -webkit-border-radius: 0px 0px 10px 10px;
-/* -moz-border-radius: 0px 0px 200px 200px; */
+
 }
 main .social-media .icon {
   margin-bottom: 1rem;
   display: flex;
-  /* flex-direction: column; */
   gap: 1rem;
+  height: 20%;
 }
 main .social-media .icon img {
-  width: 1.8rem;
-  height: 1.8rem;
-  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  /* cursor: pointer; */
+  &:hover{
+    transform: scaleX(120px);
+  }
 }
 
 main .email {
@@ -245,11 +248,13 @@ main .email p {
   display: flex;
   width: 100%;
   justify-content: space-evenly;
+  align-items: start;
   flex-wrap: wrap;
 }
 tech-stack ul .tech-image{
   overflow: hidden;
 }
+
 .tech-stack .text-stack-icon .tech-image {
   border-radius: 50%;
   padding: 10px;
@@ -257,6 +262,7 @@ tech-stack ul .tech-image{
   background-color: rgba(255, 255, 255, 0.865);
   backdrop-filter: blur(10px);
 }
+
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
   overflow: hidden;
@@ -298,19 +304,19 @@ tech-stack ul .tech-image{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 80%;
-  height: 80vh;
+  width: 100vw;
+  height: 100vh;
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
 }
 #proj-1{
-
   top: 130%;
+ 
   background-image: url("/icon/Project1.png");
 }
 
 #proj-2{
-  top:250%;
+  top:180%;
   background-image: url("/icon/project2.png");
 }
