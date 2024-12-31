@@ -82,6 +82,7 @@ timeLine.from("main button", {
     Color:"red",
 })
 
+
 gsap.from(".icon img", {
     y:-10,
     duration:0.44,
@@ -89,41 +90,26 @@ gsap.from(".icon img", {
     stagger:0.77,
 })
 
+
+
+
 timeLine2.from(".tech-image", {
-    duration:15,
+    duration:10,
     opacity:0,
     x:12,
     scale:1.2,
     rotate:6,
-    stagger:2,
+    stagger:1,
     overflow:"hidden",
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
-        // markers:true,
-        start:"-50% start",
-        end:"+=100",
-        scrub:5,
+        start:"10% 20%",
+        end:"150% 10%",
+        scrub:2,
         pin:true,
-        
+        top:"100%"
     }
     
 })
 
-timeLine2.from(".project1", {
-    duration:15,
-    opacity:0,
-    y:100,
-    scale:2,
-    rotate:10,
-    overflow:"hidden",
-    scrollTrigger:{
-        trigger:".projects",
-        scroller:"body",
-        start:"-50% start",
-        end:"+=200",
-        // markers:true,
-        scrub:2,
-        pin:true,
-    }
-})
