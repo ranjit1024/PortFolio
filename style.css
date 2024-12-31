@@ -311,12 +311,12 @@ tech-stack ul .tech-image{
   background-repeat: no-repeat;
 }
 #proj-1{
-  top: 130%;
+  top: 140%;
  
   background-image: url("/icon/Project1.png");
 }
 
 #proj-2{
-  top:180%;
+  top:200%;
   background-image: url("/icon/project2.png");
 }
