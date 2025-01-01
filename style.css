@@ -217,7 +217,7 @@ main .email p {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 96%;
+  width: 95%;
   margin: auto;
   padding-bottom: 3rem;
   overflow: hidden;
@@ -312,11 +312,16 @@ tech-stack ul .tech-image{
 }
 #proj-1{
   top: 140%;
- 
   background-image: url("/icon/Project1.png");
+  &:hover{
+    cursor: pointer;
+  }
 }
 
 #proj-2{
   top:200%;
   background-image: url("/icon/project2.png");
+  &:hover{
+    cursor: pointer;
+  }
 }

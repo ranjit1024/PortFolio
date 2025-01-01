@@ -32,6 +32,11 @@ function breakTextAccordingToSpace(){
 }
 
 
+// document.querySelector("#proj-1").addEventListener(e =>{
+//     window.location.href = "http://www.w3schools.com"
+// })
+
+
 breakTextAccordingToSpace()
 gsap.from(".nav-button", {
     y:-100,
