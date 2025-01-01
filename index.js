@@ -3,21 +3,19 @@ const timeLine2 = gsap.timeline();
 const touch = document.querySelector(".get-in-touch button");
 
 function breakEachText(){
-    const textNode = document.querySelector('.title')
-    const text = document.querySelector(".title").textContent;
+    const textNode = document.querySelector('.last-text')
+    const text = document.querySelector(".last-text").textContent;
     const splitedText = text.split("");
     let clutter = "";
     splitedText.forEach((item)=>{
-        if(item == " "){
-            clutter += `<span>&nbsp</span>`
-        }
-        else{
-
-            clutter += `<span> ${item} </span>`
-        }
+        
+        clutter += `<span>${item}</span>`
+        
     })
     textNode.innerHTML = clutter;
 }
+
+// breakEachText()
 
 function breakTextAccordingToSpace(){
     const textNode = document.querySelector(".sub-title");
@@ -32,9 +30,7 @@ function breakTextAccordingToSpace(){
 }
 
 
-// document.querySelector("#proj-1").addEventListener(e =>{
-//     window.location.href = "http://www.w3schools.com"
-// })
+
 
 
 breakTextAccordingToSpace()
@@ -66,7 +62,7 @@ timeLine.to(".sub-title span", {
     x:1000,
     opacity:1,
     stagger:0.3,
-   
+    textShadow:'5px 5px 10px rgba(18, 174, 177, 0.4)'
 })
 
 timeLine.to(".overlay", {
@@ -109,7 +105,7 @@ timeLine2.from(".tech-image", {
     scrollTrigger:{
         trigger:".tech-stack",
         scroller:"body",
-        start:"10% 20%",
+        start:"10% 10%",
         end:"150% 10%",
         scrub:2,
         pin:true,
@@ -118,22 +114,20 @@ timeLine2.from(".tech-image", {
     
 })
 
+
 let tl = gsap.timeline({scrollTrigger:{
     trigger:".projects",
     start: "38% 50%",
-    end: "200% 40%",
+    end: "250% 50%",
     scrub:3,
     pin:true,
-    duration:10,
-   
-}})
 
-tl
+}})
 .to(".proj-text",{
-    top:"-7%"
+    top:"-10%"
 },'a')
 .to("#proj-1", {
-    top:"30%"
+    top:"40%"
 },'a')
 .to("#proj-2", {
     top:"100%"
@@ -148,4 +142,10 @@ tl
 .to('#proj-2', {
     width:"80%",
     height:'80vh'
+},'d')
+.to("footer div p", {
+    // duration:'1s',
+    textShadow: "2px 2px 100px rgba(5, 240, 236, 0.657)",
+    webkitTextStroke: "1px rgba(10, 244, 248, 0.6)",
+   
 },'d')
