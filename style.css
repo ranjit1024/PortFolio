@@ -175,11 +175,14 @@ main .social-media .icon {
   display: flex;
   gap: 1rem;
   height: 20%;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 main .social-media .icon img {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   /* cursor: pointer; */
+  margin-top: 1rem;
   &:hover{
     transform: scaleX(120px);
   }
@@ -334,3 +337,4 @@ footer div p{
   color: rgba(11, 71, 150, 0.765);
   
 }
+
