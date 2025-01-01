@@ -120,7 +120,7 @@ let tl = gsap.timeline({scrollTrigger:{
     scrub:3,
     pin:true,
     duration:10,
-    markers:true,
+   
 }})
 
 tl
