@@ -10,7 +10,6 @@
   box-sizing: border-box;
   font-family: "Inconsolata", monospace;
   color: white;
-  /* overflow-x: hidden; */
 }
 
 html,
@@ -18,8 +17,8 @@ body {
   height: 100%;
   width: 100%;
   background-color: #041939;
+  position: relative;
 }
-
 
 nav {
   display: flex;
@@ -71,7 +70,7 @@ ul button {
 main {
   /* position: relative; */
   font-family: "Inter", sans-serif;
-  margin-bottom: 5rem;
+  margin-bottom: 12rem;
 }
 main .info {
   display: flex;
@@ -82,7 +81,6 @@ main .info {
   overflow: hidden;
   padding-top: 5vw;
   padding-left: 20vw;
-  
 }
 /* main .greeting{
   
@@ -100,7 +98,6 @@ main .title {
 }
 .sub-title-container {
   position: relative;
-  
 }
 
 main .title {
@@ -156,7 +153,7 @@ main button {
 }
 main .social-media {
   position: absolute;
-  background-color: rgba(255,255,255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 4;
   top: 0;
   left: 100;
@@ -167,8 +164,7 @@ main .social-media {
   flex-direction: row;
   text-align: center;
   border-radius: 0px 0px 20px 10px;
--webkit-border-radius: 0px 0px 10px 10px;
-
+  -webkit-border-radius: 0px 0px 10px 10px;
 }
 main .social-media .icon {
   margin-bottom: 1rem;
@@ -183,7 +179,7 @@ main .social-media .icon img {
   height: 1.5rem;
   /* cursor: pointer; */
   margin-top: 1rem;
-  &:hover{
+  &:hover {
     transform: scaleX(120px);
   }
 }
@@ -208,11 +204,11 @@ main .email p {
   font-size: 1rem;
   text-align: center;
   overflow: hidden;
-} 
-
+}
 
 .tech-stack {
   /* height: 50vh; */
+
   position: relative;
   display: flex;
   justify-content: center;
@@ -232,7 +228,7 @@ main .email p {
   font-family: "Poppins", sans-serif;
   overflow: hidden;
   /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
-  text-shadow: 3px 3px 20px rgba(5,240,236,0.4);
+  text-shadow: 3px 3px 20px rgba(5, 240, 236, 0.4);
 
   background: rgb(13, 87, 200);
   background: linear-gradient(
@@ -252,7 +248,7 @@ main .email p {
   align-items: start;
   flex-wrap: wrap;
 }
-tech-stack ul .tech-image{
+tech-stack ul .tech-image {
   overflow: hidden;
 }
 
@@ -274,15 +270,15 @@ tech-stack ul .tech-image{
   border-radius: 50%;
 }
 
-.projects{
+.projects {
   position: relative;
   margin-top: 10rem;
-  height: 120vh
+  height: 120vh;
 }
-.proj-text{
+.proj-text {
   position: absolute;
   width: 100%;
-  text-shadow: 3px 3px 20px rgba(5,240,236,0.3);
+  text-shadow: 3px 3px 20px rgba(5, 240, 236, 0.3);
   font-size: 4rem;
   font-weight: 800;
   font-family: "Poppins", sans-serif;
@@ -299,8 +295,7 @@ tech-stack ul .tech-image{
   margin-bottom: 1rem;
 }
 
-
-.proj{
+.proj {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -311,23 +306,23 @@ tech-stack ul .tech-image{
   background-size: contain;
   background-repeat: no-repeat;
 }
-#proj-1{
+#proj-1 {
   top: 140%;
   background-image: url("/icon/Project1.png");
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
 
-#proj-2{
-  top:170%;
+#proj-2 {
+  top: 170%;
   background-image: url("/icon/project2.png");
-  &:hover{
+  &:hover {
     cursor: pointer;
   }
 }
 
-footer div p{
+footer div p {
   top: -100px;
   position: relative;
   text-align: center;
@@ -335,6 +330,5 @@ footer div p{
   font-size: 100px;
   font-family: "Poppins";
   color: rgba(11, 71, 150, 0.765);
-  
 }
 

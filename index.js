@@ -144,8 +144,11 @@ let tl = gsap.timeline({scrollTrigger:{
     height:'80vh'
 },'d')
 .to("footer div p", {
-    // duration:'1s',
+
     textShadow: "2px 2px 100px rgba(5, 240, 236, 0.657)",
     webkitTextStroke: "1px rgba(10, 244, 248, 0.6)",
    
 },'d')
+
+
+
