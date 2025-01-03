@@ -103,10 +103,11 @@ timeLine2.from(".tech-image", {
     stagger:1,
     overflow:"hidden",
     scrollTrigger:{
+        
         trigger:".tech-stack",
         scroller:"body",
         start:"10% 10%",
-        end:"150% 10%",
+        end:"100% 10%",
         scrub:2,
         pin:true,
         top:"100%"
