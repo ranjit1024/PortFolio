@@ -266,7 +266,7 @@ main .email p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 55px;
+  gap: 50px;
 }
 
 tech-stack ul .tech-image {
