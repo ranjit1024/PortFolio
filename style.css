@@ -270,7 +270,7 @@ main .email p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 30px;
 }
 
 tech-stack ul .tech-image {
@@ -282,14 +282,12 @@ tech-stack ul .tech-image {
 
 .tech-stack .text-stack-icon .tech-image {
   border-radius: 50%;
-  padding: 16px;
+  padding: 17px;
   object-fit: cover;
-  border: 3px outset #05f0ec;
-  background: rgb(186, 186, 186);
-  background: radial-gradient(circle, rgb(134, 144, 155) 0%, rgba(6, 200, 235, 0.597) 100%);
+  box-shadow: rgb(249, 249, 249) 0px 30px 60px -12px inset, rgb(0, 140, 255) 0px 18px 36px -108px inset;
 
-  box-shadow: rgb(135, 177, 222) 0px 30px 60px -12px inset, rgb(95, 93, 93) 0px 18px 36px -18px inset;
-
+  /* box-shadow: 0 0 10px rgb4, 224, 240); */
+  ;
 }
 
 
