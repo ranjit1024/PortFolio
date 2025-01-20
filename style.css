@@ -240,6 +240,7 @@ main .email p {
   padding-bottom: 3rem;
   overflow: hidden;
   margin-bottom: 10rem;
+  margin-top: 190px;
 }
 
 .tech-stack .title {
@@ -258,7 +259,7 @@ main .email p {
       rgb(233, 234, 234) 100%);
   color: transparent;
   background-clip: text;
-  opacity: 0;
+
 }
 
 .text-stack-icon {
@@ -269,7 +270,7 @@ main .email p {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 50px;
+  gap: 40px;
 }
 
 tech-stack ul .tech-image {
@@ -283,10 +284,9 @@ tech-stack ul .tech-image {
   border-radius: 50%;
   padding: 16px;
   object-fit: cover;
-
-  background: rgb(1, 200, 255);
-  background: radial-gradient(circle, rgb(242, 253, 255) 0%, rgba(116, 152, 158, 0.394) 100%);
-
+  border: 3px outset #05f0ec;
+  background: rgb(186, 186, 186);
+  background: radial-gradient(circle, rgb(134, 144, 155) 0%, rgba(6, 200, 235, 0.597) 100%);
 
   box-shadow: rgb(135, 177, 222) 0px 30px 60px -12px inset, rgb(95, 93, 93) 0px 18px 36px -18px inset;
 

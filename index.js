@@ -93,9 +93,7 @@ gsap.from(".icon img", {
 
 
 
-timeLine2.to('.tech-stack .title', {
-    opacity: 1
-})
+
 
 timeLine2.from(".tech-image", {
     duration: 10,
