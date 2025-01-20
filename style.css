@@ -303,7 +303,8 @@ tech-stack ul .tech-image {
 }
 
 .tech-stack .text-stack-icon .tech-image .js {
-  width: 70px;
+  /* /* width: 100px; */
+  height: 70px;
   border-radius: 50%;
 }
 
