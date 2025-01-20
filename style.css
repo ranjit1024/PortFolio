@@ -104,6 +104,7 @@ main .greeting {
 }
 
 main .title {
+
   background-color: transparent;
 }
 
@@ -119,6 +120,7 @@ main .title {
   font-family: "Poppins", sans-serif;
   text-align: start;
   display: inline-block;
+
 }
 
 main .sub-title span {
@@ -234,7 +236,7 @@ main .email p {
   flex-direction: column;
   align-items: center;
   width: 95%;
-  margin: auto;
+  /* margin: auto; */
   padding-bottom: 3rem;
   overflow: hidden;
   margin-bottom: 10rem;
@@ -256,6 +258,7 @@ main .email p {
       rgb(233, 234, 234) 100%);
   color: transparent;
   background-clip: text;
+  opacity: 0;
 }
 
 .text-stack-icon {
@@ -271,20 +274,34 @@ main .email p {
 
 tech-stack ul .tech-image {
   overflow: hidden;
+  transform: scale3d(1, 1, 1);
+
+
 }
 
 .tech-stack .text-stack-icon .tech-image {
   border-radius: 50%;
-  padding: 12px;
+  padding: 16px;
   object-fit: cover;
-  background-color: rgba(255, 255, 255, 0.865);
-  backdrop-filter: blur(10px);
+
+  background: rgb(1, 200, 255);
+  background: radial-gradient(circle, rgb(242, 253, 255) 0%, rgba(116, 152, 158, 0.394) 100%);
+
+
+  box-shadow: rgb(135, 177, 222) 0px 30px 60px -12px inset, rgb(95, 93, 93) 0px 18px 36px -18px inset;
+
 }
+
+
+
+
 
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
   overflow: hidden;
   width: 70px;
+  box-shadow: inset;
+  transform: scale3d(1, 1, 1);
 }
 
 .tech-stack .text-stack-icon .tech-image .js {
