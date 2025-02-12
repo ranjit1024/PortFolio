@@ -104,7 +104,6 @@ timeLine2.from(".tech-image", {
     stagger: 1,
     overflow: "hidden",
     scrollTrigger: {
-        markers: true,
         trigger: ".tech-stack",
         scroller: "body",
         start: "2% 10%",
