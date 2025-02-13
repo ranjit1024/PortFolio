@@ -106,7 +106,7 @@ timeLine2.from(".tech-image", {
     scrollTrigger: {
         trigger: ".tech-stack",
         scroller: "body",
-        start: "2% 10%",
+        start: "15% 10%",
         end: "140% 40%",
         scrub: 2,
         pin: true,
