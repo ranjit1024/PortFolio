@@ -18,7 +18,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #041939;
+  background-color: #021736;
   position: relative;
 }
 
@@ -81,15 +81,24 @@ ul li span {
   margin-bottom: 12rem;
 }
 
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  gap: 100px;
+}
+
 main .info {
   display: flex;
   flex-direction: column;
   justify-content: start;
   align-items: start;
   width: 100%;
+  height: 100%;
   overflow: hidden;
   padding-top: 5vw;
-  padding-left: 20vw;
+  padding-left: 14vw;
 }
 
 /* main .greeting{
@@ -104,7 +113,6 @@ main .greeting {
 }
 
 main .title {
-
   background-color: transparent;
 }
 
@@ -142,14 +150,15 @@ main .sub-title span {
 main .about {
   width: 60%;
   overflow: hidden;
-  margin-top: 1.5rem;
+  margin-top: 5vh;
   font-family: "Poppins", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 main .about span {
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  color: #05f0ec;
+  font-size: 1.2px;
 }
 
 main button {
@@ -197,7 +206,7 @@ main .social-media .icon img {
   width: 1.5rem;
   height: 1.5rem;
   /* cursor: pointer; */
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 
   &:hover {
     transform: scaleX(120px);
@@ -209,7 +218,7 @@ main .social-media .icon img {
 
 
 .tech-stack {
-  height: 100%;
+  /* height: 100%; */
 
   position: relative;
   display: flex;
@@ -256,7 +265,7 @@ main .social-media .icon img {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 50px;
 }
 
 
@@ -277,9 +286,8 @@ main .social-media .icon img {
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
   overflow: hidden;
-  width: 5rem;
-  box-shadow: inset;
-
+  width: 4rem;
+  /* box-shadow: inset; */
 }
 
 
@@ -330,7 +338,7 @@ main .social-media .icon img {
 
 #proj-2 {
   top: 170%;
-  background-image: url("/icon/project2.png");
+  background-image: url("/icon/blog.png");
 
   &:hover {
     cursor: pointer;
