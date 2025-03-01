@@ -154,5 +154,3 @@ let tl = gsap.timeline({
         webkitTextStroke: "1px rgba(10, 244, 248, 0.6)",
 
     }, 'd')
-
-

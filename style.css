@@ -274,9 +274,12 @@ main .social-media .icon img {
   border-radius: 20%;
   /* border: 2px outset #05f0ecc4; */
   padding: 12px;
-  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(233, 233, 233, 0.22) 0px 10px 10px;
-  background: rgb(212, 212, 222);
-  background: linear-gradient(90deg, rgb(167, 167, 170) 0%, rgb(152, 152, 158) 35%);
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
 
@@ -286,7 +289,7 @@ main .social-media .icon img {
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
   overflow: hidden;
-  width: 4rem;
+  width: 5rem;
   /* box-shadow: inset; */
 }
 
