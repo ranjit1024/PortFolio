@@ -107,7 +107,7 @@ timeLine2.from(".tech-image", {
         trigger: ".tech-stack",
         scroller: "body",
         start: "10% 10%",
-        end: "140% 40%",
+        end: "150% 10%",
         scrub: 2,
         pin: true,
         top: "100%",
