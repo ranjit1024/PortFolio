@@ -77,10 +77,9 @@ timeLine.from(".about", {
     y: 100,
 })
 
-timeLine.from("main button", {
+timeLine.from(".touch-with-me", {
     scale: 1.2,
-    opacity: 0,
-    Color: "red",
+    opacity: 0
 })
 
 
