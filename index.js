@@ -95,26 +95,26 @@ gsap.from(".icon img", {
 
 
 
-timeLine2.from(".tech-image", {
-    duration: 10,
-    opacity: 0,
-    x: 12,
-    scale: 1.2,
-    rotate: 6,
-    stagger: 1,
-    overflow: "hidden",
-    scrollTrigger: {
-        trigger: ".tech-stack",
-        scroller: "body",
-        start: "10% 10%",
-        end: "150% 10%",
-        scrub: 2,
-        pin: true,
-        top: "100%",
+// timeLine2.from(".tech-image", {
+//     duration: 10,
+//     opacity: 0,
+//     x: 12,
+//     scale: 1.2,
+//     rotate: 6,
+//     stagger: 1,
+//     overflow: "hidden",
+//     scrollTrigger: {
+//         trigger: ".tech-stack",
+//         scroller: "body",
+//         start: "10% 10%",
+//         end: "150% 10%",
+//         scrub: 2,
+//         pin: true,
+//         top: "100%",
 
-    }
+//     }
 
-})
+// })
 
 
 let tl = gsap.timeline({
