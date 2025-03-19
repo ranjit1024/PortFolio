@@ -220,7 +220,13 @@ main button {
   }
 }
 
+.tech-stack-mobile .title {
+  display: none;
+}
 
+.tech-stack-mobile .text-stack-icon-mobile {
+  display: none;
+}
 
 .tech-stack {
   /* height: 100%; */
@@ -300,7 +306,7 @@ main button {
 .tech-stack .text-stack-icon .tech-image img {
   /* width: 500px; */
   overflow: hidden;
-  width: 5rem;
+  width: 4.5rem;
   /* box-shadow: inset; */
 
 
@@ -359,6 +365,10 @@ main button {
   &:hover {
     cursor: pointer;
   }
+}
+
+.projects-mob {
+  display: none;
 }
 
 footer div p {
