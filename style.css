@@ -131,14 +131,19 @@ main .title {
 
 }
 
+
+
 main .sub-title span {
   text-overflow: none;
-  font-size: 5.5vw;
+  font-size: 6vw;
+  height: 100px;
+  overflow: auto;
   text-align: start;
   font-weight: 650;
   font-family: "Poppins", sans-serif;
   text-align: start;
   text-wrap: nowrap;
+  width: 100px;
   opacity: 0;
   background: linear-gradient(257deg,
       rgba(134, 235, 223, 0.7) 50%,
@@ -148,11 +153,12 @@ main .sub-title span {
 }
 
 main .about {
-  width: 80%;
+  width: 90%;
   overflow: hidden;
-  margin-top: 5vh;
+  margin-top: 3%;
   font-family: "Poppins", sans-serif;
   font-size: 1.3rem;
+  color: whitesmoke;
 }
 
 main .about span {
