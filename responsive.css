@@ -9,7 +9,7 @@
         justify-content: center;
         padding-top: 1px;
         padding-left: 0vw;
-        height: 100vh;
+
     }
 
     main .about {
@@ -22,6 +22,24 @@
         font-size: 1rem;
     }
 
+    main .sub-title span {
+        text-overflow: none;
+        font-size: 8vw;
+        height: 100px;
+        overflow: auto;
+        text-align: start;
+        font-weight: 650;
+        font-family: "Poppins", sans-serif;
+        text-align: start;
+        text-wrap: nowrap;
+        width: 100px;
+        opacity: 0;
+        background: linear-gradient(257deg,
+                rgba(134, 235, 223, 0.7) 50%,
+                rgb(0, 12, 248) 140%);
+        color: transparent;
+        background-clip: text;
+    }
 
 
     .text-stack-icon {
