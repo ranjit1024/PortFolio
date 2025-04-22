@@ -102,7 +102,7 @@ timeLine2.from(".tech-image", {
     rotate: 6,
     stagger: 1,
     overflow: "hidden",
-    marker:true,
+    
     scrollTrigger: {
         trigger: ".tech-stack",
         scroller: "body",
@@ -111,8 +111,7 @@ timeLine2.from(".tech-image", {
         scrub: 2,
         pin: true,
         top: "100%",
-        markers:true
-
+      
     }
 
 })
