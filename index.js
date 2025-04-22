@@ -102,14 +102,16 @@ timeLine2.from(".tech-image", {
     rotate: 6,
     stagger: 1,
     overflow: "hidden",
+    marker:true,
     scrollTrigger: {
         trigger: ".tech-stack",
         scroller: "body",
         start: "10% 10%",
-        end: "150% 10%",
+        end: "400% 10%",
         scrub: 2,
         pin: true,
         top: "100%",
+        markers:true
 
     }
 
